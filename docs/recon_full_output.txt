@@ -1,0 +1,293 @@
+
+[1m[94m============================================================[0m
+[1m[93m  1. POD IDENTITY[0m
+[1m[94m============================================================[0m
+  [94m[*][0m whoami:   kimi
+  [94m[*][0m hostname: k2048097032695136256
+  [94m[*][0m uname -a: Linux k2048097032695136256 5.10.134-18.0.9.lifsea8.x86_64 #1 SMP Fri Jan 23 16:08:32 CST 2026 x86_64 GNU/Linux
+  [94m[*][0m pod IP:   10.163.13.163
+  [94m[*][0m /etc/hostname: k2048097032695136256
+
+[1m[94m============================================================[0m
+[1m[93m  2. ENVIRONMENT VARIABLES[0m
+[1m[94m============================================================[0m
+  [94m[*][0m CLICOLOR = 1
+  [94m[*][0m CLICOLOR_FORCE = 1
+  [94m[*][0m DISPLAY = :99
+  [94m[*][0m ECI_CONTAINER_TYPE = normal
+  [94m[*][0m FORCE_COLOR = 1
+  [94m[*][0m GIT_PAGER = cat
+  [92m[+][0m [1m[91mGPG_KEY[0m = [91m7169605F62C751356D054A26A821E680E5FA6305[0m
+  [94m[*][0m HOME = /home/kimi
+  [94m[*][0m HOSTNAME = k2048097032695136256
+  [94m[*][0m JPY_PARENT_PID = 53
+  [92m[+][0m [1m[92mKUBERNETES_PORT[0m = tcp://192.168.0.1:443
+  [92m[+][0m [1m[92mKUBERNETES_PORT_443_TCP[0m = tcp://192.168.0.1:443
+  [92m[+][0m [1m[92mKUBERNETES_PORT_443_TCP_ADDR[0m = 192.168.0.1
+  [92m[+][0m [1m[92mKUBERNETES_PORT_443_TCP_PORT[0m = 443
+  [92m[+][0m [1m[92mKUBERNETES_PORT_443_TCP_PROTO[0m = tcp
+  [92m[+][0m [1m[92mKUBERNETES_SERVICE_HOST[0m = apiserver.c91192ba748f1481985f14c836cb5249b.cn-beijing.cs.aliyuncs.com
+  [92m[+][0m [1m[92mKUBERNETES_SERVICE_PORT[0m = 6443
+  [92m[+][0m [1m[92mKUBERNETES_SERVICE_PORT_HTTPS[0m = 6443
+  [94m[*][0m LANG = C.UTF-8
+  [94m[*][0m MPLBACKEND = module://matplotlib_inline.backend_inline
+  [92m[+][0m [1m[91mOLDPWD[0m = [91m/run/s6-rc:s6-rc-init:PpIGop/servicedirs/kernel-server[0m
+  [94m[*][0m PAGER = cat
+  [94m[*][0m PATH = /command:/home/kimi/.local/bin:/home/kimi/.npm-global/bin:/command:/home/kimi/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  [94m[*][0m PIP_CACHE_DIR = /home/kimi/.cache/pip
+  [94m[*][0m PIP_INDEX_URL = http://mirrors.cloud.aliyuncs.com/pypi/simple/
+  [94m[*][0m PIP_TRUSTED_HOST = mirrors.cloud.aliyuncs.com
+  [92m[+][0m [1m[91mPWD[0m = [91m/mnt/agents[0m
+  [94m[*][0m PYDEVD_USE_FRAME_EVAL = NO
+  [94m[*][0m PYTHONUNBUFFERED = 1
+  [94m[*][0m PYTHONUSERBASE = /home/kimi/.local
+  [94m[*][0m PYTHON_SHA256 = fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4
+  [94m[*][0m PYTHON_VERSION = 3.12.12
+  [94m[*][0m S6_LOGGING = 0
+  [94m[*][0m SCREEN_RESOLUTION = 1920x1080
+  [94m[*][0m SHLVL = 0
+  [92m[+][0m [1m[91mSSH_PASSWORD[0m = [91mREDACTED INTENTIONALLY[0m
+  [94m[*][0m TERM = xterm-color
+  [94m[*][0m TZ = Asia/Shanghai
+  [94m[*][0m USE_CDP = 1
+  [92m[+][0m [1m[91mVNC_PASSWORD[0m = [91mREDACTED INTENTIONALLY[0m
+  [94m[*][0m WORKDIR = /mnt/agents
+  [92m[+][0m [1m[91mXAUTHORITY[0m = [91m/home/kimi/.Xauthority[0m
+
+[1m[94m============================================================[0m
+[1m[93m  3. KUBERNETES SERVICE ACCOUNT[0m
+[1m[94m============================================================[0m
+  [92m[+][0m SA Token found (1157 chars): eyJhbGciOiJSUzI1NiIsImtpZCI6IndJckpJSkh0SGg4VlBSN1RTRUg0NVFP...
+  [92m[+][0m CA cert found: /var/run/secrets/kubernetes.io/serviceaccount/ca.crt
+  [92m[+][0m Namespace: default
+  [92m[+][0m JWT claims:
+      aud: ['https://kubernetes.default.svc']
+      exp: 1808675385
+      iat: 1777139385
+      iss: https://kubernetes.default.svc
+      jti: 3339783a-1bdc-4fe0-8fa0-d449028d2759
+      kubernetes.io: {'namespace': 'default', 'node': {'name': 'virtual-kubelet-cn-beijing-i', 'uid': 'f32b40cb-9789-4dab-adb0-64f6e950a0e3'}, 'pod': {'name': 'k2048097032695136256', 'uid': '5c3c371f-925c-47c5-81b9-cd3d4073b71f'}, 'serviceaccount': {'name': 'default', 'uid': '3539b70c-79fc-41ad-be69-50cf791b0bd7'}, 'warnafter': 1777142992}
+      nbf: 1777139385
+      sub: system:serviceaccount:default:default
+
+[1m[94m============================================================[0m
+[1m[93m  4. KUBERNETES API RECON[0m
+[1m[94m============================================================[0m
+  [94m[*][0m API Server: https://apiserver.c91192ba748f1481985f14c836cb5249b.cn-beijing.cs.aliyuncs.com:6443
+  [92m[+][0m [200] Core API groups: [92mALLOWED[0m → {"kind":"APIVersions","versions":["v1"],"serverAddressByClientCIDRs":[{"clientCIDR":"0.0.0.0/0","serverAddress":"10.167.188.246:6443"}]}
+
+  [92m[+][0m [200] All API groups: [92mALLOWED[0m → {"kind":"APIGroupList","apiVersion":"v1","groups":[{"name":"apiregistration.k8s.io","versions":[{"groupVersion":"apiregistration.k8s.io/v1","version":"v1"}],"preferredVersion":{"groupVersion":"apiregi
+  [93m[!][0m [403] List Pods: [93mFORBIDDEN[0m
+  [93m[!][0m [403] List Secrets ★: [93mFORBIDDEN[0m
+  [93m[!][0m [403] List ConfigMaps: [93mFORBIDDEN[0m
+  [93m[!][0m [403] List ServiceAccounts: [93mFORBIDDEN[0m
+  [93m[!][0m [403] List Nodes: [93mFORBIDDEN[0m
+  [93m[!][0m [403] List Namespaces: [93mFORBIDDEN[0m
+  [92m[+][0m [200] RBAC API: [92mALLOWED[0m → {"kind":"APIGroup","apiVersion":"v1","name":"rbac.authorization.k8s.io","versions":[{"groupVersion":"rbac.authorization.k8s.io/v1","version":"v1"}],"preferredVersion":{"groupVersion":"rbac.authorizati
+  [93m[!][0m [403] Deployments: [93mFORBIDDEN[0m
+  [94m[*][0m 
+Self-subject Access Review (can-i):
+  [92m[+][0m Resource rules (2):
+      verbs=['create']  resources=['selfsubjectaccessreviews', 'selfsubjectrulesreviews']  apiGroups=['authorization.k8s.io']
+      verbs=['create']  resources=['selfsubjectreviews']  apiGroups=['authentication.k8s.io']
+  [92m[+][0m Non-resource rules: [{'verbs': ['get'], 'nonResourceURLs': ['/api', '/api/*', '/apis', '/apis/*', '/healthz', '/livez', '/openapi', '/openapi/*', '/readyz', '/version', '/version/']}, {'verbs': ['get'], 'nonResourceURLs': ['/healthz', '/livez', '/readyz', '/version', '/version/']}, {'verbs': ['get'], 'nonResourceURLs': ['/.well-known/openid-configuration', '/.well-known/openid-configuration/', '/openid/v1/jwks', '/openid/v1/jwks/']}]
+
+[1m[94m============================================================[0m
+[1m[93m  5. ALIBABA CLOUD IMDS (100.100.100.200)[0m
+[1m[94m============================================================[0m
+  [91m[-][0m IMDS /meta-data/: 403 <?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD X
+  [91m[-][0m IMDS /meta-data/instance-id: 403 <?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD X
+  [91m[-][0m IMDS /meta-data/region-id: 403 <?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD X
+  [91m[-][0m IMDS /meta-data/hostname: 403 <?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD X
+  [91m[-][0m IMDS /meta-data/ram/security-credentials/: 403 <?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD X
+  [91m[-][0m IMDS /meta-data/network-type: 403 <?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD X
+
+[1m[94m============================================================[0m
+[1m[93m  6. INTERNAL NETWORK REACHABILITY[0m
+[1m[94m============================================================[0m
+  [92m[+][0m 192.168.0.1:443 (Kubernetes API (ClusterIP)) — [92mOPEN[0m
+  [93m[!][0m 192.168.0.1:80 (Kubernetes API HTTP) — TIMEOUT
+  [92m[+][0m 192.168.0.10:53 (CoreDNS) — [92mOPEN[0m
+  [92m[+][0m 100.100.100.200:80 (Alibaba IMDS) — [92mOPEN[0m
+  [93m[!][0m 10.163.0.1:80 (Gateway/Router) — TIMEOUT
+  [93m[!][0m 10.163.0.1:443 (Gateway HTTPS) — TIMEOUT
+  [94m[*][0m 
+Cluster DNS service discovery:
+  [92m[+][0m kubernetes.default.svc.cluster.local → 192.168.0.1
+  [92m[+][0m kube-dns.kube-system.svc.cluster.local → 192.168.0.10
+  [92m[+][0m metrics-server.kube-system.svc.cluster.local → 192.168.116.99
+
+[1m[94m============================================================[0m
+[1m[93m  7. SENSITIVE FILE DISCOVERY[0m
+[1m[94m============================================================[0m
+  [92m[+][0m [1m/home/kimi/.ssh/authorized_keys[0m (102 bytes):
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJXVeH2Ui/WXuIFhMABcDiN7C/6r89kCp9vihbez/tVO moonshot@space.local
+
+  [93m[!][0m /etc/shadow: Permission denied
+  [93m[!][0m /etc/sudoers: Permission denied
+  [93m[!][0m /proc/1/environ: Permission denied
+  [92m[+][0m [1m/proc/self/environ[0m (0 bytes):
+KUBERNETES_SERVICE_PORT_HTTPS=6443 PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4 KUBERNETES_SERVICE_PORT=6443 PYTHONUNBUFFERED=1 SCREEN_RESOLUTION=1920x1080 HOSTNAME=k2048097032695136256 PYTHON_VERSION=3.12.12 SSH_PASSWORD=REDACTED INTENTIONALLY S6_LOGGING=0 PWD=/mnt/agents ECI_CONTAINER_TYPE=normal XAUTHORITY=/home/kimi/.Xauthority TZ=Asia/Shanghai HOME=/home/kimi LANG=C.UTF-8 WORKDIR=/mnt/agents KUBERNETES_PORT_443_TCP=tcp://192.168.0.1:443 PIP_TRUSTED_HOST=mirrors.cloud.
+  [92m[+][0m [1m/mnt/agents/.hedwig.json[0m (30 bytes):
+{"sandbox_ip":"10.163.13.163"}
+  [92m[+][0m [1m/var/run/secrets/kubernetes.io/serviceaccount/token[0m (1157 bytes): ---- INTENTIONALLY REDACTED-----
+  [94m[*][0m 
+Reading /proc/1/environ (PID1 env):
+  [91m[-][0m /proc/1/environ: [Errno 13] Permission denied: '/proc/1/environ'
+
+[1m[94m============================================================[0m
+[1m[93m  8. PROCESSES & PORTS[0m
+[1m[94m============================================================[0m
+  [94m[*][0m Open listening ports:
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:8888            0.0.0.0:*               LISTEN      53/python3          
+tcp        0      0 10.163.13.163:47545     0.0.0.0:*               LISTEN      402/python3         
+tcp        0      0 10.163.13.163:45241     0.0.0.0:*               LISTEN      137/python3         
+tcp        0      0 10.163.13.163:41053     0.0.0.0:*               LISTEN      137/python3         
+tcp        0      0 10.163.13.163:41759     0.0.0.0:*               LISTEN      402/python3         
+tcp        0      0 0.0.0.0:6080            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 10.163.13.163:42849     0.0.0.0:*               LISTEN      137/python3         
+tcp        0      0 10.163.13.163:40643     0.0.0.0:*               LISTEN      137/python3         
+tcp        0      0 127.0.0.1:9222          0.0.0.0:*               LISTEN      336/chromium        
+tcp        0      0 0.0.0.0:9223            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:10250         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 10.163.13.163:10250     0.0.0.0:*               LISTEN      -                   
+tcp        0      0 10.163.13.163:52429     0.0.0.0:*               LISTEN      402/python3         
+tcp        0      0 10.163.13.163:33229     0.0.0.0:*               LISTEN      137/python3         
+tcp        0      0 10.163.13.163:33743     0.0.0.0:*               LISTEN      402/python3         
+tcp        0      0 127.0.0.1:34321         0.0.0.0:*               LISTEN      402/python3         
+tcp        0      0 127.0.0.1:45137         0.0.0.0:*               LISTEN      137/python3         
+tcp        0      0 10.163.13.163:50387     0.0.0.0:*               LISTEN      402/python3         
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::8080                 :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:6080            0.0.0.0:*                           -                   
+udp6       0      0 ::1:323                 :::*                                -
+  [94m[*][0m 
+Process list:
+root           1  0.0  0.0    436   100 ?        Ss   01:49   0:00 /package/admin/s6/command/s6-svscan -d4 -- /run/service
+root          16  0.0  0.0    216    72 ?        S    01:49   0:00 s6-supervise s6-linux-init-shutdownd
+root          19  0.0  0.0    204     4 ?        Ss   01:49   0:00 /package/admin/s6-linux-init/command/s6-linux-init-shutdownd -d3 -c /run/s6/basedir -g 3000 -C -B
+root          25  0.0  0.0    216    72 ?        S    01:49   0:00 s6-supervise kasmvnc
+root          26  0.0  0.0    216    72 ?        S    01:49   0:00 s6-supervise kernel-server
+root          27  0.0  0.0    216    76 ?        S    01:49   0:00 s6-supervise socat
+root          28  0.0  0.0    216    76 ?        S    01:49   0:00 s6-supervise sshd
+root          29  0.0  0.0    216    72 ?        S    01:49   0:00 s6-supervise browser-guard
+root          30  0.0  0.0    216    72 ?        S    01:49   0:00 s6-supervise s6rc-fdholder
+root          31  0.0  0.0    216    72 ?        S    01:49   0:00 s6-supervise s6rc-oneshot-runner
+root          52  0.0  0.2  15452  9316 ?        Ss   01:49   0:00 sshd: /usr/sbin/sshd -D -e [listener] 0 of 10-100 startups
+kimi          53  0.4  1.9 804508 81204 ?        Ssl  01:49   0:02 python3 /app/kernel_server.py --host 0.0.0.0 --port 8888 --log-level info
+root          54  0.0  0.0    208    68 ?        Ss   01:49   0:00 /package/admin/s6/command/s6-ipcserverd -1 -- /package/admin/s6/command/s6-ipcserver-access -v0 -E -l0 -i data/rules -- /package/admin/s6/command/s6-sudod -t 30000 -- /package/admin/s6-rc/command/s6-rc-oneshot-run -l ../.. --
+root          55  0.0  0.0   4352  3248 ?        Ss   01:49   0:00 /bin/bash /root/setup_kasmvnc.sh
+kimi          56  0.2  1.8 340972 76868 ?        Ssl  01:49   0:01 python3 /app/browser_guard.py --wait-display --display :99 --timeout 60 --monitor
+root          57  0.0  0.0  10336  3012 ?        Ss   01:49   0:00 /usr/bin/socat TCP-LISTEN:9223,reuseaddr,fork TCP:localhost:9222,nonblock
+root         115  0.3  2.2 357104 93200 ?        Sl   01:49   0:01 /usr/bin/Xvnc :99 -SecurityTypes None -AlwaysShared -DisableBasicAuth -publicIP 1.1.1.1 -PrintVideoArea 0 -fp /usr/share/fonts/X11//misc,/usr/share/fonts/X11//Type1 -geometry 1920x1080 -FrameRate 60 -udpFullFrameFrequency 0 -AcceptPointerEvents 1 -key /etc/ssl/private/ssl-cert-snakeoil.key -KasmPasswordFile /root/.kasmpasswd -VideoArea 45 -RawKeyboard 0 -MaxConnectionTime 0 -WebpVideoQuality -1 -IgnoreClientSettingsKasm 0 -DLP_ClipTypes chromium/x-web-custom-data,text/html,image/png -DynamicQualityMax 8 -UseIPv4 1 -DLP_RegionAllowClick 0 -SendPrimary 0 -desktop k2048097032695136256:99 (root) -QueryConnect 0 -AcceptSetDesktopSize 1 -ImprovedHextile 1 -auth /root/.Xauthority -DLP_RegionAllowRelease 0 -UseIPv6 1 -httpd /usr/share/kasmvnc/www -IdleTimeout 0 -AcceptCutText 1 -interface 0.0.0.0 -DynamicQualityMin 7 -DLP_ClipDelay 0 -cert /etc/ssl/certs/ssl-cert-snakeoil.pem -BlacklistTimeout 10 -websocketPort 6080 -VideoScaling 2 -JpegVideoQuality -1 -AvoidShiftNumLock 0 -DLP_KeyRateLimit 0 -DisconnectClients 0 -AcceptKeyEvents 1 -Log *:stdout:30 -AllowOverride AcceptPointerEvents,SendCutText,AcceptCutText,SendPrimary -VideoTime 5 -QueryConnectTimeout 10 -RectThreads 0 -drinode /dev/dri/renderD128 -DLP_ClipSendMax 0 -DLP_Log off -DLP_ClipAcceptMax 0 -MaxVideoResolution 1920x1080 -TreatLossless 10 -SendCutText 1 -http-header Cross-Origin-Embedder-Policy=require-corp -http-header Cross-Origin-Opener-Policy=same-origin -MaxIdleTime 0 -MaxDisconnectionTime 0 -depth 24 -sslOnly 0 -BlacklistThreshold 5 -VideoOutTime 3 -CompareFB 2 -rfbauth /root/.vnc/passwd -rfbport 5901 -rfbwait 30000
+root         136  0.0  0.0   2912   876 ?        S    01:49   0:00 sleep infinity
+kimi         137  0.7  2.5 983128 108132 ?       Ssl  01:49   0:03 /usr/local/bin/python3 -m ipykernel_launcher -f /tmp/tmp9cfu1x2l.json
+kimi         147  0.3  2.4 1474568 102240 ?      Sl   01:49   0:01 /usr/local/lib/python3.12/site-packages/playwright/driver/node /usr/local/lib/python3.12/site-packages/playwright/driver/package/cli.js run-driver
+kimi         336  1.3  9.0 1462380664 378272 ?   Ssl  01:49   0:06 /usr/lib/chromium/chromium --show-component-extension-options --enable-gpu-rasterization --no-default-browser-check --disable-pings --media-router=0 --disable-dev-shm-usage --enable-remote-extensions --load-extension= about:blank --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --window-position=0,0 --remote-debugging-port=9222 --single-process --no-first-run --no-default-browser-check --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-component-extensions-with-background-pages --disable-dev-shm-usage --disable-features=TranslateUI --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkServiceInProcess2 --force-color-profile=srgb --metrics-recording-only --disable-blink-features=AutomationControlled --disable-infobars --mute-audio --enable-logging --log-file=/app/logs/chromium.log --no-sandbox --disable-gpu --load-extension=/app/pdf-viewer --js-flags="--max_old_space_size=1024" --user-data-dir=/app/data/chrome_data --remote-debugging-pipe
+kimi         352  0.0  0.0 50346648 3772 ?       Sl   01:49   0:00 /usr/lib/chromium/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/kimi/.config/chromium/Crash Reports --annotation=channel=built on Debian GNU/Linux 12 (bookworm) --annotation=lsb-release=Debian GNU/Linux 12 (bookworm) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=147.0.7727.55 --initial-client-fd=9 --shared-client-connection
+kimi         355  0.0  0.0 50338428 1996 ?       S    01:49   0:00 /usr/lib/chromium/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/kimi/.config/chromium/Crash Reports --annotation=channel=built on Debian GNU/Linux 12 (bookworm) --annotation=lsb-release=Debian GNU/Linux 12 (bookworm) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=147.0.7727.55 --initial-client-fd=4 --shared-client-connection
+kimi         357  0.0  1.5 50671232 66116 ?      S    01:49   0:00 /usr/lib/chromium/chromium --type=zygote --no-zygote-sandbox --no-sandbox --enable-logging --crashpad-handler-pid=0 --enable-crash-reporter=,built on Debian GNU/Linux 12 (bookworm) --user-data-dir=/app/data/chrome_data --change-stack-guard-on-fork=enable
+kimi         358  0.0  1.5 50671232 65920 ?      S    01:49   0:00 /usr/lib/chromium/chromium --type=zygote --no-sandbox --enable-logging --crashpad-handler-pid=0 --enable-crash-reporter=,built on Debian GNU/Linux 12 (bookworm) --user-data-dir=/app/data/chrome_data --change-stack-guard-on-fork=enable
+kimi         402  0.8  2.5 980832 106452 ?       Ssl  01:49   0:04 /usr/local/bin/python3 -m ipykernel_launcher -f /tmp/tmp0ovjk33c.json
+root         452  0.0  0.2  17780 11092 ?        Ss   01:53   0:00 sshd: kimi [priv]
+kimi         458  0.0  0.1  18124  7000 ?        S    01:53   0:00 sshd: kimi@notty
+kimi         459  0.0  0.0   2652  1100 ?        Ss   01:53   0:00 /usr/lib/openssh/sftp-server
+root         463  0.0  0.2  17776 11112 ?        Ss   01:55   0:00 sshd: kimi [priv]
+kimi         469  0.0  0.1  18120  6836 ?        S    01:55   0:00 sshd: kimi@notty
+kimi         470  0.0  0.0   2652  1076 ?        Ss   01:55   0:00 /usr/lib/openssh/sftp-server
+root         549  0.1  0.2  17784 10960 ?        Ss   01:58   0:00 sshd: kimi [priv]
+kimi         555  0.0  0.1  18128  6796 ?        S    01:58   0:00 sshd: kimi@notty
+kimi         556  0.0  0.0   2652  1124 ?        Ss   01:58   0:00 /usr/lib/openssh/sftp-server
+kimi         558  3.1  0.7  34680 29964 ?        S    01:58   0:00 python3 /mnt/agents/upload/user_pasted_clipboard_long_content_as_file_KIMI Sandbox Rec.txt
+kimi         569  0.0  0.0   2584   912 ?        S    01:58   0:00 /bin/sh -c ps aux --no-headers | head -40
+kimi         570  0.0  0.1   8536  4224 ?        R    01:58   0:00 ps aux --no-headers
+kimi         571  0.0  0.0   2920   872 ?        S    01:58   0:00 head -40
+
+[1m[94m============================================================[0m
+[1m[93m  9. WRITABLE DIRS & SUID BINARIES[0m
+[1m[94m============================================================[0m
+  [94m[*][0m World-writable directories:
+/tmp
+/tmp/.X11-unix
+/var/tmp
+/run/lock
+/run/secrets/kubernetes.io/serviceaccount
+/dev/shm
+/dev/mqueue
+/mnt
+  [94m[*][0m 
+SUID binaries:
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/openssh/ssh-keysign
+/usr/lib/chromium/chrome-sandbox
+/usr/lib/polkit-1/polkit-agent-helper-1
+/usr/bin/gpasswd
+/usr/bin/chsh
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/mount
+/usr/bin/su
+/usr/bin/newgrp
+/usr/bin/umount
+/usr/bin/sudo
+/package/admin/s6-overlay-helpers-0.1.0.2/command/s6-overlay-suexec
+
+[1m[94m============================================================[0m
+[1m[93m  10. SUDO[0m
+[1m[94m============================================================[0m
+sudo: a password is required
+
+[1m[94m============================================================[0m
+[1m[93m  11. AVAILABLE TOOLS[0m
+[1m[94m============================================================[0m
+  [91m[-][0m kubectl: not found
+  [91m[-][0m helm: not found
+  [92m[+][0m curl: /usr/bin/curl
+  [92m[+][0m wget: /usr/bin/wget
+  [92m[+][0m nc: /usr/bin/nc
+  [91m[-][0m ncat: not found
+  [91m[-][0m nmap: not found
+  [92m[+][0m ssh: /usr/bin/ssh
+  [92m[+][0m scp: /usr/bin/scp
+  [92m[+][0m sftp: /usr/bin/sftp
+  [92m[+][0m python3: /usr/local/bin/python3
+  [91m[-][0m python2: not found
+  [92m[+][0m pip3: /usr/local/bin/pip3
+  [92m[+][0m socat: /usr/bin/socat
+  [91m[-][0m iptables: not found
+  [91m[-][0m tcpdump: not found
+  [91m[-][0m strace: not found
+  [91m[-][0m gdb: not found
+  [91m[-][0m docker: not found
+  [91m[-][0m podman: not found
+  [91m[-][0m crictl: not found
+  [91m[-][0m ctr: not found
+  [91m[-][0m aws: not found
+  [91m[-][0m gcloud: not found
+  [91m[-][0m az: not found
+  [91m[-][0m aliyun: not found
+
+[1mTools available for lateral movement: [92m['curl', 'wget', 'nc', 'ssh', 'scp', 'sftp', 'python3', 'pip3', 'socat'][0m
+
+[1m[94m============================================================[0m
+[1m[93m  SUMMARY — CRITICAL FINDINGS[0m
+[1m[94m============================================================[0m
+
+  [1mSSH Credentials:[0m  REDACTED INTENTIONALLY  (user: kimi, port 22)
+  [1mVNC Password:[0m     REDACTED INTENTIONALLY
+  [1mK8s API:[0m          https://apiserver.c91192ba748f1481985f14c836cb5249b.cn-beijing.cs.aliyuncs.com:6443
+  [1mNamespace:[0m        default
+  [1mPod IP:[0m           10.163.13.163
+  [1mToken (60c):[0m      eyJhbGciOiJSUzI1NiIsImtpZCI6IndJckpJSkh0SGg4VlBSN1RTRUg0NVFP...
+

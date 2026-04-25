@@ -1,0 +1,38 @@
+[261:261:0424/121351.738689:WARNING:media/audio/linux/audio_manager_linux.cc:54] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[261:296:0424/121351.742110:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[261:296:0424/121351.742139:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:296:0424/121351.742153:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[261:296:0424/121351.742164:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[261:261:0424/121351.742728:ERROR:chrome/browser/net/system_network_context_manager.cc:965] Cannot use V8 Proxy resolver in single process mode.
+[261:296:0424/121351.803895:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:261:0424/121351.834104:ERROR:chrome/browser/net/system_network_context_manager.cc:965] Cannot use V8 Proxy resolver in single process mode.
+[261:296:0424/121351.885391:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:261:0424/121351.885752:ERROR:chrome/browser/net/system_network_context_manager.cc:965] Cannot use V8 Proxy resolver in single process mode.
+[261:261:0424/121351.886757:WARNING:ui/gfx/linux/gbm_support_x11.cc:48] dri3 extension not supported.
+[261:296:0424/121351.971942:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:296:0424/121351.971973:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:261:0424/121352.055242:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:261:0424/121352.055294:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+[261:261:0424/121352.058399:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:296:0424/121352.059294:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:261:0424/121352.071038:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:261:0424/121352.073648:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:296:0424/121352.077926:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:296:0424/121352.077969:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[261:296:0424/121352.077983:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[261:261:0424/121352.083819:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:296:0424/121352.083971:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:261:0424/121352.084061:WARNING:dbus/property.cc:94] Failed to connect to PropertiesChangedsignal.
+[261:261:0424/121352.084077:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+[261:261:0424/121352.084133:WARNING:dbus/property.cc:174] GetAll request failed for: org.freedesktop.UPower.Device
+[261:261:0424/121352.086618:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:296:0424/121352.088369:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:261:0424/121352.090471:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:296:0424/121352.091246:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[261:261:0424/121352.094929:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[261:261:0424/121352.094954:WARNING:ui/base/idle/idle_linux.cc:111] None of the known D-Bus ScreenSaver services could be used.
+[261:261:0424/121352.281123:INFO:CONSOLE:103] "Set up extension URL router.", source: chrome-extension://gpkoddcemgbmajecfkkolkgfcchmfpge/extension-router.js (103)
+[261:261:0424/121352.299385:INFO:CONSOLE:41] "Disabled telemetry because this is not an official build.", source: chrome-extension://gpkoddcemgbmajecfkkolkgfcchmfpge/telemetry.js (41)
+[261:335:0424/121352.522872:ERROR:third_party/blink/renderer/platform/fonts/linux/font_unique_name_lookup_linux.cc:21] @font-face src: local() instantiation only available when connected to browser process.
+[261:335:0424/121352.522896:ERROR:third_party/blink/renderer/platform/fonts/linux/font_unique_name_lookup_linux.cc:21] @font-face src: local() instantiation only available when connected to browser process.
+[261:261:0424/121651.873545:ERROR:services/on_device_model/public/cpp/service_client.cc:36] Unexpected on_device_model service disconnect: Error loading backend.

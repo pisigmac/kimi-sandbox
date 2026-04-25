@@ -1,0 +1,3 @@
+#!/command/with-contenv bash
+set -euo pipefail
+exec /usr/bin/socat TCP-LISTEN:9223,reuseaddr,fork TCP:localhost:9222,nonblock
